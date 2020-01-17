@@ -15,7 +15,7 @@ On August 7th, 2019 they were:
 
 Create a new playground in this repository called "CurrencyConverter"
 
-1. Create a currency type enum above the class and below the `import` statements.
+1. Create a currency type enum below the `import` statements.
 
 	```swift
 	enum Currency {
@@ -39,7 +39,7 @@ Create a new playground in this repository called "CurrencyConverter"
     * create a constant called `amount`. Its value should be the `amountString` that is initialized into a `Double`
     * use a `guard let` to unwrap the new `amount` constant.
     * convert the dollar amount to the expected currency (hint, you'll want to call the `convert` method you created in step 4
-7. Test your code by calling `convert(amountString` with some values. Change your `currency` to both `.cad` and `.mxn` to make sure the conversion works for both currencies.
+7. Test your code by calling `convert(amountString` with some values. Change your `currency` to both `.cad` and `.mxn` (by manually changing the value of your `currency` variable above) to make sure the conversion works for both currencies.
 
 
 ## Go Further (Optional)
